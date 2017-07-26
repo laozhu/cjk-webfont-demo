@@ -90,7 +90,6 @@ html, body {
 }
 
 .box-content-center {
-  width: 183px;
   line-height: 175px;
   box-sizing: border-box;
   padding-top: 22px;
@@ -102,7 +101,6 @@ html, body {
 
 .box-content-left,
 .box-content-right {
-  width: 91px;
   line-height: 91px;
   box-sizing: border-box;
   padding-top: 29px;
