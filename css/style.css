@@ -12,7 +12,6 @@
 }
 
 html, body {
-  margin: 0;
   height: 100%;
 }
 
@@ -87,18 +86,16 @@ html, body {
 .box-content > div {
   writing-mode: vertical-lr;
   -webkit-writing-mode: vertical-lr;
-}
-
-.box-content > div + div {
-  border-left: 4px solid #fff;
+  height: 392px;
 }
 
 .box-content-center {
   width: 183px;
-  line-height: 183px;
+  line-height: 175px;
   box-sizing: border-box;
   padding-top: 22px;
-  padding-bottom: 22px;
+  border-left: 4px solid #fff;
+  border-right: 4px solid #fff;
   font-size: 76px;
   letter-spacing: 3px;
 }
